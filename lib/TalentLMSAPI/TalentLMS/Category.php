@@ -1,5 +1,7 @@
 <?php
 
+namespace TalentLMSAPI\TalentLMS;
+
 class TalentLMS_Category extends TalentLMS_ApiResource{
 	
 	public static function retrieve($id){

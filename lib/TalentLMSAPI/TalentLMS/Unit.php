@@ -1,5 +1,7 @@
 <?php
 
+namespace TalentLMSAPI\TalentLMS;
+
 class TalentLMS_Unit extends TalentLMS_ApiResource{
 	
 	public static function getUsersProgress($params){
