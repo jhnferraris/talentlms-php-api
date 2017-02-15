@@ -1,9 +1,5 @@
 <?php
 
-namespace TalentLMSAPI\TalentLMS;
-
-use TalentLMSAPI\TalentLMS;
-
 class TalentLMS_ApiRequestor{
 	
 	public static function request($method, $url, $params=null){
@@ -16,7 +12,7 @@ class TalentLMS_ApiRequestor{
 		try{
 			$response = json_decode($rbody, true);
 		}
-		catch(\Exception $e){
+		catch(Exception $e){
 			throw new TalentLMS_ApiError("Invalid response body from API: ".$rbody." (HTTP response code was ".$rcode.")", $rcode, $rbody);
 		}
 	

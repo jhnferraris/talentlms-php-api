@@ -1,13 +1,11 @@
 <?php
 
-namespace TalentLMSAPI;
-
 if(!function_exists('curl_init')){
-	throw new \Exception('TalentLMS API needs the CURL PHP extension.');
+	throw new Exception('TalentLMS API needs the CURL PHP extension.');
 }
 
 if(!function_exists('json_decode')){
-	throw new \Exception('TalentLMS API needs the JSON PHP extension.');
+	throw new Exception('TalentLMS API needs the JSON PHP extension.');
 }
 
 abstract class TalentLMS{
@@ -50,14 +48,14 @@ abstract class TalentLMS{
 require(dirname(__FILE__).'/TalentLMS/ApiError.php');
 
 // Internal
-require(dirname(__FILE__) . '/TalentLMS/ApiRequestor.php');
-require(dirname(__FILE__) . '/TalentLMS/ApiResource.php');
+require(dirname(__FILE__).'/TalentLMS/ApiRequestor.php');
+require(dirname(__FILE__).'/TalentLMS/ApiResource.php');
 
 // Resources
-require(dirname(__FILE__) . '/TalentLMS/User.php');
-require(dirname(__FILE__) . '/TalentLMS/Course.php');
-require(dirname(__FILE__) . '/TalentLMS/Category.php');
-require(dirname(__FILE__) . '/TalentLMS/Branch.php');
-require(dirname(__FILE__) . '/TalentLMS/Group.php');
-require(dirname(__FILE__) . '/TalentLMS/Unit.php');
-require(dirname(__FILE__) . '/TalentLMS/SiteInfo.php');
+require(dirname(__FILE__).'/TalentLMS/User.php');
+require(dirname(__FILE__).'/TalentLMS/Course.php');
+require(dirname(__FILE__).'/TalentLMS/Category.php');
+require(dirname(__FILE__).'/TalentLMS/Branch.php');
+require(dirname(__FILE__).'/TalentLMS/Group.php');
+require(dirname(__FILE__).'/TalentLMS/Unit.php');
+require(dirname(__FILE__).'/TalentLMS/SiteInfo.php');

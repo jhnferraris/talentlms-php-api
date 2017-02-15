@@ -1,7 +1,5 @@
 <?php
 
-namespace TalentLMSAPI\TalentLMS;
-
 class TalentLMS_Course extends TalentLMS_ApiResource{
 	
 	public static function create($params){

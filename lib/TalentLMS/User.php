@@ -1,7 +1,5 @@
 <?php
 
-namespace TalentLMSAPI\TalentLMS;
-
 class TalentLMS_User extends TalentLMS_ApiResource{
 	
 	public static function retrieve($params){

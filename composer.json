@@ -7,7 +7,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "TalentLMSAPI\\": "lib"
+      "lib\\": "lib"
     }
   }
 }
