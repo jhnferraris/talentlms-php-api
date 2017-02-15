@@ -1,13 +1,13 @@
 {
   "name": "jhnferraris/talentlms-php-api",
-  "description": "Simple and amazing OAuth library with many providers. Just try it out!",
+  "description": "TalentLMS API",
   "keywords": [
     "talentlms"
   ],
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "TalentLMS\\": "lib"
+      "TalentLMS\\": "lib/"
     }
   }
 }
