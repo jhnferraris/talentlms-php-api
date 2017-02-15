@@ -6,8 +6,8 @@
   ],
   "license": "MIT",
   "autoload": {
-    "psr-4": {
-      "classmap": "lib/"
+    "psr-0": {
+      "": "lib/"
     }
   }
 }
